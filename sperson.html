@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all">
+    <link rel="stylesheet" href="style.css">   
+</head>
+
+<body>
+        <!--navigation bar-->
+        <section id="header" style="border: 2px solid black;">
+                <a href="https://i.ibb.co/0ffCjyK/logo.jpg"><img src="https://i.ibb.co/0ffCjyK/logo.jpg" style="height: 50px; width: 50px; border: 3px solid black;" class="logo" alt="logo"></a>  
+            <select class="search-bar select" style="background-color: #fefae0; border: 3px solid #dda15e; height: 30px; width: auto; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 6);">
+                <option>Hyderabad</option><option>Bangalore</option><option>Chennai</option><option>Delhi</option><option>Mumbai</option><option>Vijayawada</option></select>
+            <div class="search-button">
+                <input id="searchInput" type="text" style="background-color: #fefae0; border: 3px solid #dda15e; height: 35px; width: auto; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);">
+                <button onclick="search()" style="background-color: skyblue; font-size: small; font-weight: bold; border: 3px solid black; height: 35px; width: auto; border-radius: 5px; text-align: center; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)">Search</button></div>
+              
+                <div><ul id="navbar" style="width: auto; ">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="signin.html">Sign in</a></li>
+        </section>
+
+        <!--person detailed info-->
+        <section id="pdetails" class="section-p1">
+            <div class="single-p-image">
+                <img src="https://i.ibb.co/pzcnHTP/sample-image.jpg" width="100%" height="80%" id="MainImg" alt="" style="border: 5px solid white; border-radius: 5px; border-radius: 15px;">
+               
+                 <div class="small-img-group" style="padding-top: 10px;">
+                    <div class="small-img-col" style="border: 3px solid black; border-radius: 5px;">
+                        <img src="https://i.ibb.co/rGXdQyz/2023-03-10-1.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col" style="border: 3px solid black; border-radius: 5px;">
+                        <img src="https://i.ibb.co/Ycp4cWz/2023-03-10-2.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col" style="border: 3px solid black; border-radius: 5px;">
+                        <img src="https://i.ibb.co/xqk0FsY/2023-03-10-3.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col" style="border: 3px solid black; border-radius: 5px;">
+                        <img src="https://i.ibb.co/68f9T2P/2023-03-10-5.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>    
+            </div>
+
+            <div class="single-p-details" style="box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.8);">
+                <h1>Carpenter</h1>
+                <h3>Devara.Chinnama Naidu</h3>
+                <div class="info-section">
+                    <h2>About</h2>
+                    <p>Over the years, I've had the privilege of working on a diverse range of projects, from cozy residential homes to bustling commercial spaces.
+                         Collaborating with clients to bring their visions to life is a rewarding experience that fuels my passion for carpentry.
+                          I take pride in my ability to understand their needs and preferences, ensuring that every project is not just completed but exceeds expectations.</p>
+                </div>
+                <div style="padding-top: 10px; padding-bottom: 10px;">
+                     <h4>Year's of Experience: 7</h4>
+                </div>
+                    <div class="content">
+                        <h4>Reviews</h4>
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <p>Thanks for completing my work in time</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <p>Excellent</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <p>On budget friendly</p>
+                                </div>
+                    </div>
+                
+                    <div class="contact-links">
+                        <div data-field="phone">
+                            <a class="contact-link" href="tel:+91-97018-65895">Call now</a>
+                        </div>
+                        <div data-field="address">
+                            <a class="contact-link" href="https://www.google.com/maps/dir//Big+Daddy%E2%80%99s+Workshop/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a35efb710a48c2f:0x827a64f809f5b676!2m2!1d80.6365088!2d16.5270086" target="_blank">Get directions</a>
+                        </div>
+                    </div>
+        </section>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

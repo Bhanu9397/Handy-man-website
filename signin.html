@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Categories</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+  body {
+    width: 100%;
+    background-color: #f4a261;
+    font-family: Arial, sans-serif;
+  }
+  .login-popup {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fefae0;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+  .login-popup h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .login-popup p {
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .login-popup form {
+    text-align: center;
+  }
+  .login-popup label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .login-popup input[type=text],
+  .login-popup input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .login-popup button[type=submit],
+  .login-popup .google-btn {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .login-popup button[type=submit]:hover,
+  .login-popup .google-btn:hover {
+    background-color: #ff7f00;
+  }
+  .skip {
+    display: block;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+    <section style="padding-top: 100px;">
+      <div class="login-popup">
+        <h1 style="font-weight: 600; font-size: xx-large;">Welcome</h1>
+        <p>Login for a seamless experience</p>
+        <form>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone">
+            <button type="submit" style="width: 150px;">Send OTP</button>
+            <div style="padding-top: 10px;"><p>Or Login Using</p></div>
+            <button type="button" class="google-btn" style="width: 150px;">Google</button>
+        </form>
+        <a href="index.html" class="skip" style="color: blueviolet;">Skip</a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+     <script src="https://apis.google.com/js/api:client.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
